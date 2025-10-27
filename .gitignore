@@ -1,0 +1,239 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Android related
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+/android/local.properties
+/android/.gradle
+/android/captures/
+/android/gradle-wrapper.jar
+/android/.externalNativeBuild
+/android/.cxx/
+/android/app/google-services.json
+
+# iOS related
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*sync/
+**/ios/**/.sconsign.dblite
+**/ios/**/.tags*
+**/ios/**/.vagrant/
+**/ios/**/DerivedData/
+**/ios/**/Icon?
+**/ios/**/Pods/
+**/ios/**/.symlinks/
+**/ios/**/profile
+**/ios/**/xcuserdata
+**/ios/.generated/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/Podfile.lock
+**/ios/GoogleService-Info.plist
+
+# macOS related
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/ephemeral/
+
+# Windows related
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/generated_plugin_registrant.h
+**/windows/flutter/generated_plugins.cmake
+
+# Linux related
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugin_registrant.h
+**/linux/flutter/generated_plugins.cmake
+
+# Web related
+/web/firebase-config.js
+
+# Firebase related
+**/google-services.json
+**/GoogleService-Info.plist
+firebase.json
+.firebase/
+.firebaserc
+
+# Environment files
+# NOTE: For DEMO purposes, .env is included for easy testing
+# WARNING: In production, NEVER commit .env files with secrets!
+# .env
+# .env.local
+# .env.production
+# .env.development
+# *.env
+
+# FVM Version Cache
+.fvm/
+fvm_config.json
+
+# Android Signing Files
+# NOTE: For DEMO purposes, keystore files are included
+# WARNING: In production, NEVER commit these files!
+# *.jks
+# *.keystore
+# **/key.properties
+# /android/app/upload-keystore.jks
+# /android/app/release-keystore.jks
+# /android/app-release-key.jks
+# /android/keystore.properties
+
+# Code generation
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# Test related
+test/.test_coverage.dart
+coverage/
+*.lcov
+
+# Generated files
+*.gen.dart
+*.config.dart
+
+# Hive database files (if you want to exclude local DB)
+*.hive
+*.lock
+
+# Cache and temporary files
+.tmp/
+tmp/
+temp/
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# Documentation generated files
+/doc/api/
+/docs/
+
+# Release builds (optional - uncomment if you don't want to track builds)
+# /build/app/outputs/
+
+# Notes and TODOs
+TODO.md
+NOTES.md
+.scratch/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Package manager
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Editor backup files
+*~
+*.swp
+*.swo
+*~.nib
+
+# Xcode
+*.xcworkspace
+!default.xcworkspace
+*.xcodeproj
+!default.xcodeproj
+xcuserdata/
+
+# Android Profiler
+*.hprof
+
+# Gradle files
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# virtual machine crash logs
+hs_err_pid*
+
+# Flutter crash reports
+flutter_*.log
+
+# Ignore analysis options that are IDE-specific
+.analysis_options_user
+
+# Exceptions to ignore rules (keep these files)
+!.vscode/launch.json
+!.vscode/tasks.json
+!.gitkeep
