@@ -269,7 +269,7 @@ Before you begin, ensure you have the following installed:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/utsav-savani/tasksimew.git
 cd tasksimew
 ```
 
@@ -1061,7 +1061,7 @@ For issues, questions, or feedback:
 
 ```bash
 # 1. Clone and install
-git clone <repository-url>
+git clone https://github.com/utsav-savani/tasksimew.git
 cd tasksimew
 flutter pub get
 
